@@ -270,8 +270,7 @@ ul li a:hover {
 }
 .profimage{
   float: left;
-  height: 600px;
-  
+  width: 40%;
   
   
 }
@@ -311,7 +310,9 @@ ul li a:hover {
     gap: 3rem;
 }
 
-
+.about-me{
+  display: block;
+}
 .head{
   padding-top: 1px;
 }
@@ -322,11 +323,13 @@ ul li a:hover {
   .aboutme .abt{
     justify-content: center;
     flex-direction: column;
+    float: ;
   }
   .aboutme .profimage{
     grid-area: 1/1/2/2;
-
+   
   } 
+
   }
   @media (width < 750px) {
     .ah{
@@ -397,6 +400,7 @@ ul li a:hover {
   .services{
     width: 100%;
     height: 865px;
+    padding-top: 1000px;
     
    
 }
@@ -466,7 +470,7 @@ ul li a:hover {
 
 @media screen (width < 750px){
   .services{
-    padding: 500rem 20rem 5rem 1rem;
+    
     text-align: center;
     grid-template-columns: repeat(1, 1fr);
     
@@ -485,12 +489,14 @@ ul li a:hover {
     position: absolute;
     top: 2570px;
     align-items: flex-start;
+    display: block;
+    
     
 }
 .hh{
     text-align: center;
     color: #ffffff;
-    padding-top: 50px;
+    padding-top: 1000px;
     
 }
 .box11{
