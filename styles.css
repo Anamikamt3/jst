@@ -42,6 +42,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 nav .logo a {
@@ -469,6 +470,13 @@ ul li a:hover {
 }
 
 @media screen (width < 750px){
+  .simage{
+    width: 40%;
+    display: flex;
+  flex-flow: row;
+  flex: 1 100%;
+
+  }
   .services{
     height: auto;
     width: 100%;
@@ -614,26 +622,20 @@ padding-right: 30px;
   padding-left: 30px;
   padding-right: 30px;
 }
-.portfolioimages1{
-  margin-top: 90px;
-  display: flex;
+.btns4{
+  text-align: center;
+  padding-top: 10px;
 }
-@media screen(width<750px) {
-  .portfolioimages1{
-    display: grid;
 
-  }
-}
 .portfolioimages1{
   margin-top: 90px;
   width: 100%;
   display: flex;
   flex-flow: row;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap; 
   justify-content: space-around;
-
 }
+
 .st1{
   width: 400px;
   height: 400px;
@@ -654,13 +656,13 @@ padding-right: 30px;
 
   }
   .portfolioimages1{
-    width: 40%;
+    width: auto;
     display: flex;
   flex-flow: row;
   flex: 1 100%;
 
   }
-
+  
   
 } 
 
@@ -702,6 +704,7 @@ padding-right: 30px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 .revi1{
@@ -788,7 +791,6 @@ p{
   border-radius: 15px;
   text-align: left;
   margin-top: 100px;
-  
   padding-left: 20px;
   color: #2f343a;
   padding-bottom: 10px;
@@ -813,6 +815,7 @@ p{
   display: flex;
   flex-flow: column;
   justify-content: space-around;
+  align-items: center;
 
 }
 /*.two{
@@ -880,6 +883,7 @@ background-color:white;
 padding-top: 30px;
 display: flex;
 flex-flow: column;
+align-items: center;
 
 /*padding-left: 730px;
 margin-left: 20px;*/
